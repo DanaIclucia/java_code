@@ -27,8 +27,8 @@ public class ChuangYe {
                 Thread.sleep(2000);
                 browser.findElementByXPath("//*[@id=\"schoolListCode\"]/li[2]").click();
                 Thread.sleep(1000);
-                browser.findElementByXPath("//*[@id=\"clCode\"]").sendKeys("202022300318");
-                browser.findElementByXPath("//*[@id=\"clPassword\"]").sendKeys("Sun1226910628");
+                browser.findElementByXPath("//*[@id=\"clCode\"]").sendKeys("");
+                browser.findElementByXPath("//*[@id=\"clPassword\"]").sendKeys("");
 //                browser.findElementByXPath("//*[@id=\"f_sign_up\"]/div[1]/span").click();
                 break;
             } catch (Exception e) {
